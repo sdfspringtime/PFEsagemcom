@@ -1,0 +1,52 @@
+package tn.sagemcom.Entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@Entity
+@EntityScan
+@Table(name = "ressource")
+public class Ressource {
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private int id;
+public enum type {
+    AOI3D
+    ,SPI;
+   }
+@ManyToOne
+private ChaineProd chaine;
+public ChaineProd getChaine() {
+	return chaine;
+}
+public void setChaine(ChaineProd chaine) {
+	this.chaine = chaine;
+}
+private boolean FEFS;
+public Ressource() {
+	super();
+}
+public Ressource(int id, boolean fEFS) {
+	super();
+	this.id = id;
+	FEFS = fEFS;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public boolean isFEFS() {
+	return FEFS;
+}
+public void setFEFS(boolean fEFS) {
+	FEFS = fEFS;
+}
+}

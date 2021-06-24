@@ -1,0 +1,18 @@
+1617535195963	Move 'Controllers' to 'backendCMS'
+1617535199393	Move 'Entities' to 'backendCMS'
+1617535201792	Move 'Repositories' to 'backendCMS'
+1617535203849	Move 'Services' to 'backendCMS'
+1617535229092	Move 'Controllers' to 'sagemcom'
+1617535231865	Move 'Entities' to 'sagemcom'
+1617535234105	Move 'Repositories' to 'sagemcom'
+1617535236727	Move 'Services' to 'sagemcom'
+1617535442952	Move 'Controllers' to 'backendCMS'
+1617535553047	Rename package 'tn.sagemcom.backendCMS.Controllers'
+1617543016549	Move compilation unit
+1617557877854	Move compilation unit
+1617557924055	Move compilation unit
+1617559068463	Move compilation unit
+1617559082038	Move compilation unit
+1617559097695	Move compilation unit
+1617559137803	Copy compilation unit
+1617559170690	Delete element
